@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="text-wrap">
+        <p class="p1">Learn to code by watching others</p>
+        <p class="p2">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+      <div class="section">
+        <div class="card">
+          <p class="card-text">
+            <span> Try it free 7 days </span> then $20/mo. thereafter
+          </p>
+        </div>
+        <form action="" method="get">
+          <div class="field">
+            <input class="fname" type="text" placeholder="First Name" />
+            <img src="./images/icon-error.svg" alt="" />
+            <p>First Name cannot be empty</p>
+          </div>
+          <div class="field">
+            <input class="lname" type="text" placeholder="Last Name" />
+            <img src="./images/icon-error.svg" alt="" />
+            <p>Last Name cannot be empty</p>
+          </div>
+          <div class="field">
+            <input class="email" placeholder="Email Address" oninvalid="" />
+            <img src="./images/icon-error.svg" alt="" />
+            <p>Looks like this is not an email</p>
+          </div>
+          <div class="field">
+            <input class="passwd" type="Password" placeholder="Password" />
+            <img src="./images/icon-error.svg" alt="" />
+            <p>Password cannot be empty</p>
+          </div>
+          <button class="btn">CLAIM YOUR FREE TRIAL</button>
+          <p class="term">
+            By clicking the button, you are agreeing to our
+            <span>Terms and Services </span>
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
