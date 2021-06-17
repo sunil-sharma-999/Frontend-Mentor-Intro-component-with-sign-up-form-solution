@@ -15,7 +15,7 @@ body {
 
 .container {
   color: var(--white);
-  margin: 5rem 1.5rem 2rem 1.5rem;
+  margin: 4rem 1.5rem 2rem 1.5rem;
   display: grid;
 }
 /* text-wrap */
@@ -70,7 +70,7 @@ form {
 }
 input {
   border: 1px solid;
-  padding: 1rem;
+  padding: 1rem 0;
   border: none;
   margin: 0.5rem;
   color: rgba(128, 128, 128, 0.713);
@@ -126,7 +126,7 @@ input {
 .field img {
   position: absolute;
   right: 1rem;
-  top: 30%;
+  top: 25%;
 }
 .field p {
   visibility: hidden;
